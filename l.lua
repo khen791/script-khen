@@ -1,6 +1,263 @@
 --[[
 a
 
+
+w
+s
+s
+s
+s
+s
+s
+
+s
+
+
+
+
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+
+s
+s
+s
+g
+g
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t
+
+
+
+t
+t
+
+t
+tt
+
+
+t
+t
+t
+t
+t
+t
+t
+
+t
+t
+g
+t
+g
+g
+g
+
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+d
+d
+d
+f
+
+d
+dd
+d
+ff
+f
+
+f
+
+
+d
+d
+
+d
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f
+
+
+
+
+
+
+
+
+
+d
+
+
+
+
+s
+s
+s
+s
+s
+s
+s
+s
+
+s
+s
+
+
+
+
+
+
+
+s
+s
+s
+s
+ss
+s
+s
+s
+s
+s
+s
+s
+s
+z
+s
+s
+s
+s
+s
+s
+ss
+
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+
+s
+s
+s
+s
+s
+
 a
 a
 a
@@ -1032,6 +1289,52 @@ ss
 s
 d
 f
+s
+s
+s
+
+ss
+s
+
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+
+s
+s
+
+s
+s
+s
+s
+f
+ff
+
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+
+f
+f
 f
 r
 sa
@@ -1086,74 +1389,10 @@ a
 
 loadstring(game:HttpGet("https://pastefy.app/tKOg6klJ/raw", true))();
 
-
-
-local ThugId = {
-    [0] = true,
-}
-
-local StarId = {
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = ture,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-    [0] = true,
-}
-
-local DetectiveId = {
-    [0] = true,
-}
-
-local OwnerId = {
-    [3802680567] = true,
-    [7465089619] = true,
-    [6017580976] = true,
-}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/holaaaa/autoemoji", true))();
 
 
 
-for _, v in pairs(game:GetService('Players'):GetChildren()) do
-	if StarId[v.UserId] then
-		if v.Character and v.Character.Parent.Name == 'Players' then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] ' .. v.DisplayName)
-		end
-	elseif DetectiveId[v.UserId] then
-		if v.Character and v.Character.Parent.Name == 'Players' then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🕵️‍♂️] ' .. v.DisplayName)
-		end
-	elseif ThugId[v.UserId] then
-		if v.Character and v.Character.Parent.Name == 'Players' then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛡️] ' .. v.DisplayName)
-		end
-	elseif OwnerId[v.UserId] then
-		if v.Character and v.Character.Parent.Name == 'Players' then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑] ' .. v.DisplayName)
-		end
-	elseif v.Character and v.Character.Parent.Name == 'Players' then
-		if not v.Character:FindFirstChild('UpperTorso'):FindFirstChild('BodyBackAttachment') then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎] ' .. v.DisplayName)
-		end
-	end
-end
 
 loadstring([[
     function LPH_NO_VIRTUALIZE(f) return f end;
